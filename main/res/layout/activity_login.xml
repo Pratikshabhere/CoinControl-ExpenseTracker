@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.expensetrackingapplication_coincontrol.LoginActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp"
+                android:layout_marginHorizontal="10dp"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/login_logo"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="@color/black"
+                    android:textSize="35sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="14dp"/>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_username"
+                    android:background="@color/light_grey"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:hint="Username"
+                    android:textColorHint="#000000"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:drawablePadding="8dp">
+                </EditText>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_password"
+                    android:background="@color/light_grey"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000000"
+                    android:drawableLeft="@drawable/baseline_password_24"
+                    android:drawablePadding="8dp">
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/showPasswordCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Password"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"/>
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:text="Login"
+                    android:gravity="center"
+                    android:id="@+id/login_button"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/blue_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signupRedirectText"
+                    android:text="Don't have an account? Register"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="14dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

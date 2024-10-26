@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.expensetrackingapplication_coincontrol.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/register_logo"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registeration"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_name"
+                android:background="@color/light_grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Name"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_username"
+                android:background="@color/light_grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Username"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_email"
+                android:background="@color/light_grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Email"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_phone"
+                android:background="@color/light_grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Phone"
+                android:textColorHint="#000000"
+                android:drawableLeft="@drawable/baseline_phone_android_24"
+                android:drawablePadding="8dp">
+            </EditText>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_password"
+                android:background="@color/light_grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="#000000"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp">
+            </EditText>
+
+            <!-- Add CheckBox for show/hide password -->
+            <CheckBox
+                android:id="@+id/showPasswordCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Password"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Register"
+                android:gravity="center|center_vertical"
+                android:background="@color/blue_1"
+                android:id="@+id/signup_button"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="Already an User? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
